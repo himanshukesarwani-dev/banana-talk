@@ -10,10 +10,10 @@ body {
 }
 
 textarea {
-    
+    font-size: 1rem;
     font-family: 'Merriweather', serif;
    display: block;
-    margin: auto;
+    margin: 5rem auto;
     border: 1px solid black;
     width: 50%;
     height: 50%;
