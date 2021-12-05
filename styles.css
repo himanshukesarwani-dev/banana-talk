@@ -33,3 +33,12 @@ textarea {
     background-color: var(--primary-color);
     
 }
+
+.button {
+    border-radius: 7px;
+    display: block;
+    margin: auto;
+    border: none;
+    padding: 1rem;
+    background-color: var(--primary-color);
+}
