@@ -10,6 +10,8 @@ body {
 }
 
 textarea {
+    
+    font-family: 'Merriweather', serif;
    display: block;
     margin: auto;
     border: 1px solid black;
@@ -17,14 +19,6 @@ textarea {
     height: 50%;
 }
 
-#text-output {
-    display: inline-block;
-    border: 2px solid blue;
-    height: 100px;
-    width: 90%;
-    margin: 1rem;
-    padding: 1rem;
-}
 
 .nav-bar {
     text-align: center;
@@ -40,5 +34,23 @@ textarea {
     margin: auto;
     border: none;
     padding: 1rem;
+    font-weight: bold;
     background-color: var(--primary-color);
+}
+
+.footer {
+
+text-align: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+}  
+
+.footer .footer-header {
+font-weight: bold;
+}
+
+.footer .footer-details { 
+    padding-top: 10px;
+    width: 50%;
+  margin: auto;
 }
