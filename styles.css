@@ -37,6 +37,7 @@ textarea {
     font-weight: bold;
     font-size: 1rem;
     background-color: var(--primary-color);
+    cursor: pointer;
 }
 
 .footer {
